@@ -4,16 +4,51 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/casualwriter/casual-markdown/dist/casual-markdown.css">
 <script src="https://cdn.jsdelivr.net/gh/casualwriter/casual-markdown/dist/casual-markdown.js"></script>
 <style>  
-  body { line-height:1.5; margin:auto; padding:3px; max-width:1024px; display:none; FONT-FAMILY:"Segoe UI",ARIAL; }
-  h1  { font-size:200%; padding:16px; border:1px solid lightgrey; BACKGROUND:#f0f0f0; }
-  h2  { border-bottom:1px solid grey; padding:2px }
+ body { 
+   line-height: 1.5; 
+   margin: auto; 
+   padding: 3px; 
+   max-width: 1024px; 
+   font-family: "Segoe UI", Arial, sans-serif;
+   display: none;
+ }
+ h1 { 
+   font-size: 200%; 
+   padding: 16px; 
+   border: 1px solid lightgrey; 
+   background: #f0f0f0; 
+   margin-bottom: 20px;
+ }
+ h2 { 
+   border-bottom: 1px solid grey; 
+   padding: 2px;
+   margin-top: 20px;
+ }
+ h4 {
+   margin-top: 15px;
+   margin-bottom: 10px;
+ }
+ ul {
+   margin-top: 10px;
+   margin-bottom: 15px;
+ }
+ li {
+   margin-bottom: 5px;
+ }
+ .contact-info {
+   float: right;
+   padding: 6px;
+   text-align: right;
+ }
 </style>
-<body onload="document.body.innerHTML=md.html(document.body.innerHTML); document.body.style.display='block';">
-<!--======= COPY ABOVE CODE AS HEADER, THEN FOLLOW WITH RESUME CONTENT IN MARKDOWN FORMAT =========-->
 
-<span style="float:right;padding:6px"> 
-  Aprilmiaoyilee@outlook.com <br> miaoyi.li.24@ucl.ac.uk <br> mobile: +44 7845 915685
-</span>
+<body onload="document.body.innerHTML=md.html(document.body.innerHTML); document.body.style.display='block';">
+
+<div class="contact-info">
+Aprilmiaoyilee@outlook.com <br>
+miaoyi.li.24@ucl.ac.uk <br>
+mobile: +44 7845 915685
+</div>
 
 # Miaoyi LI
 
@@ -67,3 +102,5 @@
 * Spatial Analysis: ArcGIS (spatial modeling, buffer/network analysis)
 * Software Proficiency: Microsoft Office (Excel, Access), AutoCAD, Photoshop, Rhino
 * Currently Learning: Python (pandas)
+
+</body>
