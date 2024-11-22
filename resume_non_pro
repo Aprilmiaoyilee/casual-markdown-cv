@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<title>Resume</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/casualwriter/casual-markdown/dist/casual-markdown.css">
+<script src="https://cdn.jsdelivr.net/gh/casualwriter/casual-markdown/dist/casual-markdown.js"></script>
+<style>  
+ body { 
+   line-height: 1.5; 
+   margin: auto; 
+   padding: 3px; 
+   max-width: 1024px; 
+   font-family: "Segoe UI", Arial, sans-serif;
+   display: none;
+ }
+ h1 { 
+   font-size: 200%; 
+   padding: 16px; 
+   border: 1px solid lightgrey; 
+   background: #f0f0f0; 
+   margin-bottom: 20px;
+ }
+ h2 { 
+   border-bottom: 1px solid grey; 
+   padding: 2px;
+   margin-top: 20px;
+ }
+ h4 {
+   margin-top: 15px;
+   margin-bottom: 10px;
+ }
+ ul {
+   margin-top: 10px;
+   margin-bottom: 15px;
+ }
+ li {
+   margin-bottom: 5px;
+ }
+ .contact-info {
+   float: right;
+   padding: 6px;
+   text-align: right;
+ }
+</style>
+
+<body onload="document.body.innerHTML=md.html(document.body.innerHTML); document.body.style.display='block';">
+
+<div class="contact-info">
+Aprilmiaoyilee@outlook.com <br>
+miaoyi.li.24@ucl.ac.uk <br>
+mobile: +44 7845 915685
+</div>
+
+# Miaoyi LI
+
+## Personal Profile
+
+* Postgraduate student in Urban Spatial Science at UCL, focusing on data processing and analysis in urban context
+* Skilled in data cleaning, processing, and visualisation using tools like SPSS and R
+* Proficient in ArcGIS for spatial analysis and getting familiar with SQL for database management
+* Currently enhancing Python skills for streamlined data workflows
+
+## Internship Experience
+
+#### Nanjing Zhongzhi City Service Co., Ltd. (Assistant Forestry Surveyor, 10/2023 - 12/2023)
+* Conducted on-site surveys to assess forest resources for the Forestry Type II Survey
+* Validated and standardised entries in GIS database to ensure data accuracy for future use
+
+#### Suzhou Planning & Design Research Institute Co., Ltd. (Assistant Urban Planner, 06/2023 - 07/2023)
+* Conducted site analysis and current condition assessments for Urban Renewal and Smart City Development projects
+* Supported plan comparison and spatial design stages for urban renewal and infrastructure proposals
+
+## Research Experience
+
+#### Study on Community-Based Aging-in-Place Services in Suzhou (Bachelor's Dissertation, 02/2024 - 05/2024)
+* Designed and conducted comprehensive surveys with 101 elderly residents, managing data collection through structured questionnaires and in-depth interviews
+* Processed and standardised field research data using Excel and SPSS to analyse service satisfaction rates and needs assessment across 12 different elderly care metrics
+* Created data visualisations including demographic distribution maps and satisfaction rating charts to illustrate key findings
+* Developed evidence-based optimisation strategies for aging-in-place services by synthesising quantitative survey results and qualitative interview data
+
+#### Territorial Spatial Master Planning of Gaochun District, Nanjing (Project Lead (5-person team), Nanjing Forestry University, 09/2022 - 12/2022)
+* Led spatial planning for residential, commercial, and public areas in Gaochun District's master plan
+* Built population and land use models in SPSS to align forecasts with urban goals
+* Developed land suitability evaluation in ArcGIS, optimising facility access through buffer and network analyses
+* Completed a spatial plan covering land use, transportation, and town development for planning approval
+
+#### Research on Tourism-Led Rural Sustainable Development in Rural Gentrification Context (Project Lead (3-person team), Nanjing Forestry University, 03/2022 - 06/2022)
+* Studied rural gentrification effects on tourism in two Nanjing villages, analysing spatial, economic, and social changes
+* Collected survey data on layout, businesses, villagers, and tourists, performing IPA in SPSS to assess satisfaction
+* Proposed two sustainable development models, presenting findings to local stakeholders to support planning
+
+## Additional Experience
+
+#### "Together for the Winter Olympics" Online Teaching (Online Teaching Volunteer, 01/2022 - 02/2022)
+* Created reading plans for 5 elementary students, tracking learning outcomes to tailor support
+* Strengthened communication skills by adapting to different age groups
+
+#### Innovation and Entrepreneurship Association (Social Media Content Creator, Nanjing Forestry University, 10/2019 - 03/2021)
+* Handled social media operations and summarised tech developments, including AI and GIS
+
+## Technical Skills
+* Data Analysis: SPSS (statistical analysis, IPA), R (data cleaning, visualisation)
+* Spatial Analysis: ArcGIS (spatial modelling, buffer/network analysis)
+* Software Proficiency: Microsoft Office (Excel, Access), AutoCAD, Photoshop, Rhino
+* Currently Learning: Python (pandas)
+
+</body>
